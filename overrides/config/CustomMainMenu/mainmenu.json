@@ -1,0 +1,130 @@
+{
+    "images": {
+        "title": {
+            "image": "mainmenu:textures/logo.png",
+            "posX": -256,
+            "posY": 10,
+            "width": 512,
+            "height": 256,
+            "alignment": "top_center"
+        }
+    },
+    "buttons": {
+        "join": {
+            "text": "Play!",
+            "posX": -100,
+            "posY": 78,
+            "width": 200,
+            "height": 20,
+            "action": {
+                "type": "connectToServer",
+                "ip": "mc.genprog.gq"
+            }
+        },
+        "singleplayer": {
+            "text": "",
+            "posX": -100,
+            "posY": 100,
+            "width": 20,
+            "height": 20,
+            "texture": "mainmenu:textures/button-singleplayer.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "",
+            "posX": -78,
+            "posY": 100,
+            "width": 20,
+            "height": 20,
+            "texture": "mainmenu:textures/button-multiplayer.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "",
+            "posX": -56,
+            "posY": 100,
+            "width": 20,
+            "height": 20,
+            "texture": "mainmenu:textures/button-mods.png",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "options": {
+            "text": "",
+            "posX": -34,
+            "posY": 100,
+            "width": 20,
+            "height": 20,
+            "texture": "mainmenu:textures/button-settings.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "posX": 10,
+            "posY": 100,
+            "width": 90,
+            "height": 20,
+            "action": {
+                "type": "quit"
+            }
+        },
+        "language": {
+            "text": "",
+            "posX": -12,
+            "posY": 100,
+            "width": 20,
+            "height": 20,
+            "action": {
+                "type": "openGui",
+                "gui": "languages"
+            }
+        }
+    },
+    "labels": {
+        "mojang": {
+            "text": "Copyright Mojang AB. Do not distribute!",
+            "posX": -197,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_right",
+            "action": {
+                "type": "openGui",
+                "gui": "credits"
+            }
+        },
+
+        "fml": {
+            "text": "",
+            "posX": 2,
+            "posY": -40,
+            "color": -1,
+            "alignment": "bottom_left"
+        },
+        "splash": {
+            "text": "web:http://platypus.offbeatwit.ch:5681/splash",
+            "alignment": "top_center",
+            "anchor": "middle",
+            "posX": 0,
+            "posY": 140,
+            "color": -256,
+            "hoverColor": -256
+        }
+    },
+    "other": {
+        "background": {
+            "image": "mainmenu:textures/background2.jpg",
+            "mode": "fill"
+        }
+    }
+}
